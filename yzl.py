@@ -2,7 +2,7 @@ import colorama
 from concurrent.futures import ThreadPoolExecutor
 from pystyle import Colors, Colorate
 print(Colorate.Horizontal(Colors.rainbow, 'Code Developer @DcAVM'))
-print("""
+pprint(Colorate.Horizontal(Colors.purple_to_red,"""
 ██╗   ██╗███████╗██╗     ██╗██████╗ ██████╗ ███████╗
 ╚██╗ ██╔╝╚══███╔╝██║    ███║╚════██╗╚════██╗╚════██║
  ╚████╔╝   ███╔╝ ██║    ╚██║ █████╔╝ █████╔╝    ██╔╝
@@ -23,4 +23,4 @@ print("""
        ██║   ██║   ██║██║   ██║██║     ╚════██║     
        ██║   ╚██████╔╝╚██████╔╝███████╗███████║     
        ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝     
-""")
+"""))
